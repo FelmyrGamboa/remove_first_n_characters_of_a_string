@@ -11,3 +11,4 @@ remove_charac = int(input("How many characters do you want to remove? "))
 removed_charac = string_input[remove_charac:]
 
 #Display the result
+print("The output is", removed_charac)
