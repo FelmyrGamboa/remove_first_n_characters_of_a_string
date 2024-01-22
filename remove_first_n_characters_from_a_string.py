@@ -5,10 +5,10 @@
 string_input = input("Please type something: ")
 
 #Let user decide how many characters will be removed from the input
-remove_charac = int(input("How many characters do you want to remove? "))
+remove_charac = int(input("\nHow many characters do you want to remove? "))
 
 #Create the condition to remove n characters fron the string
 removed_charac = string_input[remove_charac:]
 
 #Display the result
-print("The output is", removed_charac)
+print("\nThe output is", removed_charac)
